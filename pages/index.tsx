@@ -21,6 +21,7 @@ export default function Home() {
         <>
             <Head>
                 <title>HyperBit - Index</title>
+                <link rel="shortcut icon" href="/hyperbit-logo-icon-dark.svg"/>
             </Head>
             <div className="isolate bg-white">
                 <div

@@ -12,7 +12,6 @@ export default function Document() {
                       content="HyperBit S.R.L.S., HyperBit, Trentino, Informatica, Consulenza Informatica"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <script defer data-domain="hyperbit.it" src="https://plausible.io/js/script.js"></script>
-                <link rel="icon" href="/hyperbit-logo-icon-dark.svg"/>
             </Head>
             <body>
             <Main/>

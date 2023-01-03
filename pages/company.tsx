@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
 import {Dialog} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
@@ -20,6 +19,7 @@ export default function Company() {
         <>
             <Head>
                 <title>HyperBit - Company</title>
+                <link rel="shortcut icon" href="/hyperbit-logo-icon-dark.svg"/>
             </Head>
             <div className="isolate bg-white">
                 <div
