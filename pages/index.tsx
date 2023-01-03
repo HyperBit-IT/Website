@@ -8,7 +8,7 @@ import Script from "next/script";
 
 const navigation = [
     {name: 'Home', href: '/'},
-    {name: 'Linkedin', href: '#'},
+    {name: 'Linkedin', href: ''},
     {name: 'Twitter', href: '#'},
 ]
 
@@ -18,7 +18,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>HyperBit - Index</title>
+                <title>HyperBit S.R.L.S.</title>
                 <link rel="shortcut icon" href="/favicon.svg"/>
             </Head>
             <div className="isolate bg-white">
