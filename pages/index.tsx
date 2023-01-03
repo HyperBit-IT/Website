@@ -3,13 +3,11 @@ import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
 import {Dialog} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
-import Company from "./company";
 import Link from "next/link";
+import Script from "next/script";
 
 const navigation = [
     {name: 'Home', href: '/'},
-    {name: 'Services', href: '/services'},
-    {name: 'Company', href: '/company'},
     {name: 'Linkedin', href: '#'},
     {name: 'Twitter', href: '#'},
 ]
@@ -21,6 +19,7 @@ export default function Home() {
         <>
             <Head>
                 <title>HyperBit - Index</title>
+                <link rel="shortcut icon" href="/favicon.svg"/>
             </Head>
             <div className="isolate bg-white">
                 <div
@@ -97,7 +96,7 @@ export default function Home() {
                                 <div
                                     className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
-                    Check out our new telegram channel {' '}
+                    Check out our new slack channel {' '}
                       <a href="#" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true"/>
                       Read more <span aria-hidden="true">&rarr;</span>
@@ -110,7 +109,7 @@ export default function Home() {
                                     Home
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                    In theory this is the home page.
+                                    Hi! We are currently working on making this site better, if you want you can contact us through one of these buttons
                                 </p>
                                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                                     <a
