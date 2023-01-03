@@ -19,7 +19,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>HyperBit S.R.L.S.</title>
+                <title>HyperBit - Index</title>
             </Head>
             <div className="isolate bg-white">
                 <div

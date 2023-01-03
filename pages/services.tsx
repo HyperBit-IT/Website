@@ -18,7 +18,7 @@ export default function Services() {
     return (
         <>
             <Head>
-                <title>HyperBit S.R.L.S.</title>
+                <title>HyperBit - Services</title>
             </Head>
             <div className="isolate bg-white">
                 <div
@@ -40,7 +40,7 @@ export default function Services() {
                     <div>
                         <nav className="flex items-center justify-between h-9" aria-label="global">
                             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                                <a href="https://hyperbit.it" className="-m-1.5 p-1.5">
+                                <a href="/" className="-m-1.5 p-1.5">
                                     <span className="sr-only">HyperBit S.R.L.S.</span>
                                     <img className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
                                 </a>
