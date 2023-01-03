@@ -1,12 +1,15 @@
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
-import {Bars3Icon} from '@heroicons/react/24/outline'
+import {Dialog} from '@headlessui/react'
+import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
+import Company from "./company";
 import Link from "next/link";
-import {Dialog} from "@headlessui/react";
-import {XMarkIcon} from "@heroicons/react/20/solid";
 
 const navigation = [
     {name: 'Home', href: '/'},
+    {name: 'Services', href: '/services'},
+    {name: 'Company', href: '/company'},
     {name: 'Linkedin', href: '#'},
     {name: 'Twitter', href: '#'},
 ]
@@ -17,8 +20,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>HyperBit S.R.L.S.</title>
-                <link rel="shortcut icon" href="/hyperbit-logo-icon-dark.svg"/>
+                <title>HyperBit - Index</title>
             </Head>
             <div className="isolate bg-white">
                 <div
@@ -84,51 +86,6 @@ export default function Home() {
                                 </a>
                             </div>
                         </nav>
-                        <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                            <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
-                                <div className="flex h-9 items-center justify-between">
-                                    <div className="flex">
-                                        <Link href="/" className="-m-1.5 p-1.5">
-                                            <span className="sr-only">HyperBit S.R.L.S.</span>
-                                            <img className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
-                                        </Link>
-                                    </div>
-                                    <div className="flex">
-                                        <button
-                                            type="button"
-                                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                                            onClick={() => setMobileMenuOpen(false)}
-                                        >
-                                            <span className="sr-only">Close menu</span>
-                                            <XMarkIcon className="h-6 w-6" aria-hidden="true"/>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div className="mt-6 flow-root">
-                                    <div className="-my-6 divide-y divide-gray-500/10">
-                                        <div className="space-y-2 py-6">
-                                            {navigation.map((item) => (
-                                                <a
-                                                    key={item.name}
-                                                    href={item.href}
-                                                    className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                                >
-                                                    {item.name}
-                                                </a>
-                                            ))}
-                                        </div>
-                                        <div className="py-6">
-                                            <a
-                                                href="https://panel.hyperbit.it"
-                                                className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
-                                            >
-                                                Log in
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Dialog.Panel>
-                        </Dialog>
                     </div>
                 </div>
             </div>
@@ -141,7 +98,7 @@ export default function Home() {
                                     className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
                     Check out our new telegram channel {' '}
-                      <a href="https://t.me/HyperBitIT" className="font-semibold text-indigo-600">
+                      <a href="#" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true"/>
                       Read more <span aria-hidden="true">&rarr;</span>
                     </a>
@@ -153,9 +110,7 @@ export default function Home() {
                                     Home
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                    Hi. We are currently working on making this site better, if you want you can contact
-                                    us
-                                    through one of these buttons
+                                    In theory this is the home page.
                                 </p>
                                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                                     <a
@@ -177,24 +132,8 @@ export default function Home() {
                     </span>
                                     </a>
                                 </div>
-                                <br>
-                                </br>
-                                <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                                    <div
-                                        className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  <span className="text-gray-600">
-                    Subscribe to our newsletter {' '}
-                      <a href="https://cdn.forms-content.sg-form.com/a58efb3f-8d04-11ed-b120-fe799afc46d8"
-                         className="font-semibold text-indigo-600">
-                      <span className="absolute inset-0" aria-hidden="true"/>
-                      Press here! <span aria-hidden="true">&rarr;</span>
-                    </a>
-                  </span>
-                                    </div>
-                                </div>
                             </div>
-                            <div
-                                className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+                            <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                                 <svg
                                     className="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
                                     viewBox="0 0 1155 678"
@@ -215,8 +154,8 @@ export default function Home() {
                                             y2="474.645"
                                             gradientUnits="userSpaceOnUse"
                                         >
-                                            <stop stopColor="#9089FC"/>
-                                            <stop offset={1} stopColor="#FF80B5"/>
+                                            <stop stopColor="#9089FC" />
+                                            <stop offset={1} stopColor="#FF80B5" />
                                         </linearGradient>
                                     </defs>
                                 </svg>
