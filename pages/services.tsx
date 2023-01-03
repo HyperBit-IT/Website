@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
-import {Dialog} from '@headlessui/react'
-import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
+import {Bars3Icon} from '@heroicons/react/24/outline'
 import Link from "next/link";
 
 const navigation = [
