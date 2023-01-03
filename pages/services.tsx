@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
 import {Dialog} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
+import Link from "next/link";
 
 const navigation = [
     {name: 'Home', href: '/'},
@@ -40,10 +41,10 @@ export default function Services() {
                     <div>
                         <nav className="flex items-center justify-between h-9" aria-label="global">
                             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                                <a href="/" className="-m-1.5 p-1.5">
+                                <Link href="/" className="-m-1.5 p-1.5">
                                     <span className="sr-only">HyperBit S.R.L.S.</span>
                                     <img className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
-                                </a>
+                                </Link>
                             </div>
                             <div className="flex items-center lg:hidden" aria-label="Global">
                                 <button
