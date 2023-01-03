@@ -106,7 +106,7 @@ export default function Home() {
                                     Home
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                    In theory this is the home page.
+                                    Hi. We are currently working on making this site better, if you want you can contact us through one of these buttons
                                 </p>
                                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                                     <a
