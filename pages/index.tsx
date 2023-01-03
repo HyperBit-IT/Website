@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
-import {Dialog} from '@headlessui/react'
-import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
-import Company from "./company";
+import {Bars3Icon} from '@heroicons/react/24/outline'
 import Link from "next/link";
 
 const navigation = [
@@ -20,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>HyperBit - Index</title>
+                <title>HyperBit S.R.L.S.</title>
                 <link rel="shortcut icon" href="/hyperbit-logo-icon-dark.svg"/>
             </Head>
             <div className="isolate bg-white">
@@ -134,7 +131,8 @@ export default function Home() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+                            <div
+                                className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                                 <svg
                                     className="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
                                     viewBox="0 0 1155 678"
@@ -155,8 +153,8 @@ export default function Home() {
                                             y2="474.645"
                                             gradientUnits="userSpaceOnUse"
                                         >
-                                            <stop stopColor="#9089FC" />
-                                            <stop offset={1} stopColor="#FF80B5" />
+                                            <stop stopColor="#9089FC"/>
+                                            <stop offset={1} stopColor="#FF80B5"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
