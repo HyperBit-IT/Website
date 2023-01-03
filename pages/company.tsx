@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css'
 import React, {useState} from "react";
 import {Dialog} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
-import Company from "./company";
 
 const navigation = [
     {name: 'Home', href: '/'},
@@ -14,7 +13,7 @@ const navigation = [
 ]
 
 
-export default function Home() {
+export default function Company() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
         <>
@@ -94,10 +93,10 @@ export default function Home() {
                             </div>
                             <div>
                                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                                    Home
+                                    Company
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                    In theory this is the home page.
+                                   And here is the company page, in theory.
                                 </p>
                             </div>
                         </div>
