@@ -20,7 +20,7 @@ export default function customFooter() {
                     <div className="w-full  grid-rows-2">
                         <p className="font-medium text-black sm:justify-center">
                             Infrastructure <a href="https://status.hyperbit.it" className="font-semibold text-black">
-                            status
+                            Status
                         </a>
                         </p>
                         <p className="font-medium text-black sm:justify-center">
