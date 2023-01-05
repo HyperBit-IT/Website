@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import customFooter from "./_snippets/footer";
 import customHeader from "./_snippets/header";
+import customFooter from "./_snippets/footer";
 import gradient_1 from "./_snippets/gradients";
 
 
-export default function Services() {
+export default function Mission() {
     return (
         <>
             <Head>
-                <title>HyperBit - Servizi</title>
+                <title>HyperBit - Mission</title>
                 <link rel="shortcut icon" href="/hyperbit-logo-icon-dark.svg"/>
             </Head>
             {customHeader()}
@@ -18,10 +18,10 @@ export default function Services() {
                         <div>
                             <div>
                                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                                    Servizi
+                                    Mission
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                    Here I should write something about the services we offer.
+                                    And here is the mission page, in theory.
                                 </p>
                             </div>
                             {gradient_1()}
@@ -31,5 +31,5 @@ export default function Services() {
             </main>
             {customFooter()}
         </>
-    );
+    )
 }
