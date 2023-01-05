@@ -104,29 +104,29 @@ export default function Home() {
                                         </button>
                                     </div>
                                 </div>
-                                    <div className="mt-6 flow-root">
-                                        <div className="-my-6 divide-y divide-gray-500/10">
-                                            <div className="space-y-2 py-6">
-                                                {navigation.map((item) => (
-                                                    <a
-                                                        key={item.name}
-                                                        href={item.href}
-                                                        className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                                    >
-                                                        {item.name}
-                                                    </a>
-                                                ))}
-                                            </div>
-                                            <div className="py-6">
+                                <div className="mt-6 flow-root">
+                                    <div className="-my-6 divide-y divide-gray-500/10">
+                                        <div className="space-y-2 py-6">
+                                            {navigation.map((item) => (
                                                 <a
-                                                    href="https://panel.hyperbit.it"
-                                                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                                                    key={item.name}
+                                                    href={item.href}
+                                                    className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                                                 >
-                                                    Log in
+                                                    {item.name}
                                                 </a>
-                                            </div>
+                                            ))}
+                                        </div>
+                                        <div className="py-6">
+                                            <a
+                                                href="https://panel.hyperbit.it"
+                                                className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                                            >
+                                                Log in
+                                            </a>
                                         </div>
                                     </div>
+                                </div>
                             </Dialog.Panel>
                         </Dialog>
                     </div>
@@ -141,7 +141,7 @@ export default function Home() {
                                     className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
                     Check out our new telegram channel {' '}
-                      <a href="#" className="font-semibold text-indigo-600">
+                      <a href="https://t.me/HyperBitIT" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true"/>
                       Read more <span aria-hidden="true">&rarr;</span>
                     </a>
@@ -176,6 +176,21 @@ export default function Home() {
                       &rarr;
                     </span>
                                     </a>
+                                </div>
+                                <br>
+                                </br>
+                                <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+                                    <div
+                                        className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                  <span className="text-gray-600">
+                    Subscribe to our newsletter {' '}
+                      <a href="https://cdn.forms-content.sg-form.com/a58efb3f-8d04-11ed-b120-fe799afc46d8"
+                         className="font-semibold text-indigo-600">
+                      <span className="absolute inset-0" aria-hidden="true"/>
+                      Press here! <span aria-hidden="true">&rarr;</span>
+                    </a>
+                  </span>
+                                    </div>
                                 </div>
                             </div>
                             <div
