@@ -143,7 +143,7 @@ export default function Home() {
                                     className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
                     Check out our new telegram channel {' '}
-                      <a href="#" className="font-semibold text-indigo-600">
+                      <a href="https://t.me/HyperBitIT" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true"/>
                       Read more <span aria-hidden="true">&rarr;</span>
                     </a>
@@ -176,6 +176,21 @@ export default function Home() {
                       &rarr;
                     </span>
                                     </a>
+                                </div>
+                                <br>
+                                </br>
+                                <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+                                    <div
+                                        className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                  <span className="text-gray-600">
+                    Subscribe to our newsletter {' '}
+                      <a href="https://cdn.forms-content.sg-form.com/a58efb3f-8d04-11ed-b120-fe799afc46d8"
+                         className="font-semibold text-indigo-600">
+                      <span className="absolute inset-0" aria-hidden="true"/>
+                      Press here! <span aria-hidden="true">&rarr;</span>
+                    </a>
+                  </span>
+                                    </div>
                                 </div>
                             </div>
                             <div
@@ -210,6 +225,42 @@ export default function Home() {
                     </div>
                 </div>
             </main>
+            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+                <footer className="gap-80 columns-2">
+                    <div className="w-full grid-rows-4">
+                        <p className="font-semibold text-black sm:justify-center">
+                            HyperBit S.R.L.S
+                        </p>
+                        <p className="font-medium text-black sm:justify-center">
+                            Via Monte Cristallo 35, Pergine Valsugana (TN), Italy
+                        </p>
+                        <p className="font-medium text-black sm:justify-center">
+                            P.Iva: IT0123456789 - CCIAA Trento
+                        </p>
+                        <p className="font-medium text-black sm:justify-center">
+                            Capitale Sociale:
+                        </p>
+                    </div>
+                    <div className="w-full  grid-rows-2">
+                        <p className="font-medium text-black sm:justify-center">
+                            Infrastructure <a href="https://status.hyperbit.it" className="font-semibold text-black">
+                                status
+                        </a>
+                        </p>
+                        <p className="font-medium text-black sm:justify-center">
+                            Our software is <a href="https://gitlab.com/HyperBit-IT"
+                                               className="font-semibold text-black">
+                            Open-Source
+                        </a>
+                        </p>
+                        <p className="font-medium text-black sm:justify-center">
+                            Made with ❤️ by <a href="https://francescomasala.me" className="font-semibold text-black">
+                            Francesco Masala
+                        </a>
+                        </p>
+                    </div>
+                </footer>
+            </div>
         </>
     )
 }
