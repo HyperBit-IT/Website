@@ -1,7 +1,9 @@
 export default function customFooter() {
+    console.log('Website coded with ❤️ by Francesco Masala - HyperBit S.R.L.S.')
+    console.log('Lol, are you searching something?')
     return (
         <>
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center ">
+            <div className="bottom-0 sm:mb-8 sm:flex sm:justify-center ">
                 <footer className="gap-80 columns-2 sm:gap-20">
                     <div className="w-full grid-rows-4 sm:grid-rows-6 sm:w-auto">
                         <p className="font-semibold text-black sm:justify-center">

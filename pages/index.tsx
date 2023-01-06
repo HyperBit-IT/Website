@@ -5,6 +5,7 @@ import customHeader from "./_snippets/header";
 import gradient_1 from "./_snippets/gradients";
 import Suggestion from "./_snippets/suggestion";
 import Button from "./_snippets/button";
+import Cookiebanner from "./_snippets/cookiebanner";
 
 export default function Home() {
     return (<>
