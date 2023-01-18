@@ -75,7 +75,7 @@ export default function customHeader() {
                             </div>
                             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                                 <a
-                                    href="https://panel.hyperbit.it"
+                                    href="https://panel.hyperbit.dev"
                                     className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                                 >
                                     Log in
