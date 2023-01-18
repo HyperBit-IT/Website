@@ -19,10 +19,10 @@ export default function Home() {
                             <div
                                 className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
-                    Check out our new telegram channel {' '}
-                      <a href="https://t.me/HyperBitIT" className="font-semibold text-indigo-600">
+                    Inviaci un messaggio {' '}
+                      <a href="https://wa.me/message/AN5DQU53PIQQH1" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true"/>
-                      Read more <span aria-hidden="true">&rarr;</span>
+                      Premi qua <span aria-hidden="true">&rarr;</span>
                     </a>
                   </span>
                             </div>
@@ -32,7 +32,7 @@ export default function Home() {
                                 Home
                             </h1>
                             <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                In theory this is the home page.
+                                Benvenuto sulla nostra home page!
                             </p>
                             <div className="mt-8 flex gap-x-4 sm:justify-center">
                                 <a
@@ -52,8 +52,7 @@ export default function Home() {
                     </span>
                                 </a>
                             </div>
-                            <br>
-                            </br>
+                            <br/>
                         </div>
                         {gradient_1()}
                     </div>
