@@ -26,7 +26,7 @@ export default function Company() {
                                 <div>
                                     <div>
                                         <p className="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-                                            Mi chiamo <a className="text-gray-400"
+                                            Mi chiamo <a className="text-blue-600"
                                             href="https://francescomasala.me">Francesco Masala</a>, fin da ragazzo
                                             ho sempre avuto un forte interesse per la tecnologia, in particolare per il
                                             mondo
@@ -38,9 +38,9 @@ export default function Company() {
                                             progetti open source
                                             e a lavorare come freelance per aziende locali, da allora ho continuato ad
                                             appassionarmi sempre di più a questo mondo, fino ad avere il
-                                            mio Autonomous System Number (ASN) personale (<a className="text-gray-400"
+                                            mio Autonomous System Number (ASN) personale (<a className="text-blue-600"
                                             href="https://as212539.net">AS212539</a>)
-                                            e successivamente diventare membro della <a className="text-gray-400"
+                                            e successivamente diventare membro della <a className="text-blue-600"
                                             href="https://foundation.gnome.org/"> fondazione Gnome</a>.
                                         </p>
                                     </div>
