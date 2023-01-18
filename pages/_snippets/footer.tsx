@@ -5,16 +5,16 @@ export default function customFooter() {
                 <footer className="gap-80 columns-2 sm:gap-20">
                     <div className="w-full grid-rows-4 sm:grid-rows-6 sm:w-auto">
                         <p className="font-semibold text-black sm:justify-center">
-                            HyperBit S.R.L.S
+                            HyperBit SRLs
                         </p>
                         <p className="font-medium text-black sm:justify-center">
                             Via Monte Cristallo 35, Pergine Valsugana (TN), Italy
                         </p>
                         <p className="font-medium text-black sm:justify-center">
-                            P.Iva: IT0123456789 - CCIAA Trento
+                            P.Iva: IT02697330229 - CCIAA Trento
                         </p>
                         <p className="font-medium text-black sm:justify-center">
-                            Capitale Sociale:
+                            Capitale Sociale: 600€
                         </p>
                     </div>
                     <div className="w-full  grid-rows-2">
@@ -32,6 +32,12 @@ export default function customFooter() {
                         <p className="font-medium text-black sm:justify-center">
                             Made with ❤️ by <a href="https://francescomasala.me" className="font-semibold text-black">
                             Francesco Masala
+                        </a>
+                        </p>
+                        <p className="font-medium text-black sm:justify-center">
+                            <a href="mailto://hyperbit@pec.it" className="font-semibold text-black">
+                            Posta Elettronica Certificata
+
                         </a>
                         </p>
                     </div>

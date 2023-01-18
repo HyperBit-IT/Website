@@ -33,10 +33,10 @@ export default function Contacts() {
                                     ,
                                     <a className="text-gray-400" href="https://t.me/hyperbit"> Telegram</a>
                                     ,
-                                    <a className="text-gray-400" href="mailto:mail@pec.hyperbit.it"> Posta Elettronica
+                                    <a className="text-gray-400" href="mailto:hyperbit@pec.it"> Posta Elettronica
                                         Certificata </a>
                                     e cellulare presso il numero
-                                    <a className="text-gray-400" href="tel:+393921309080"> 3921309080</a>.
+                                    <a className="text-gray-400" href="tel:+393202930345"> 3202930345</a>.
                                 </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
                                     In caso di necessità potete contattare il NOC presso l<span
