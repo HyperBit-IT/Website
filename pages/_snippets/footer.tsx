@@ -11,7 +11,7 @@ export default function customFooter() {
                             Via Monte Cristallo 35, Pergine Valsugana (TN), Italy
                         </p>
                         <p className="font-medium text-black sm:justify-center">
-                            P.Iva: IT02697330229 - CCIAA Trento
+                            P.Iva: IT02697330229 - CCIAA Trento: TBD
                         </p>
                         <p className="font-medium text-black sm:justify-center">
                             Capitale Sociale: 600€
