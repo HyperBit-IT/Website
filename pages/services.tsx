@@ -17,12 +17,32 @@ export default function Services() {
                     <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
                         <div>
                             <div>
-                                <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                                <h1 className="text-6xl font-bold tracking-tight sm:text-center sm:text-6xl">
                                     Servizi
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                                    Here I should write something about the services we offer.
+                                    HyperBit offre consulenza e sviluppo di soluzioni tecnologiche per le piccole e
+                                    medie
+                                    aziende.
                                 </p>
+                                <br/>
+                                <h2 className="mt-6 text-4xl font-semibold tracking-tight sm:text-center sm:text-4xl">
+                                    Consulenza
+                                </h2>
+                                <p className="mt-4 text-lg leading-8 text-gray-600 sm:text-center">
+                                    HyperBit offre consulenza e sviluppo di soluzioni tecnologiche per le piccole e
+                                    medie aziende. Le nostre soluzioni sono basate su tecnologie open-source e sono in
+                                    grado di soddisfare le esigenze di qualsiasi azienda, sia essa piccola o grande.
+                                </p>
+                                <br/>
+                                <h2 className="mt-6 text-4xl font-semibold tracking-tight sm:text-center sm:text-4xl">
+                                    IaaS
+                                </h2>
+                                <p className="mt-4 text-lg leading-8 text-gray-600 sm:text-center">
+                                    HyperBit offre servizi di Infrastructure as a Service (IaaS) per la gestione di VPS,
+                                    server dedicati e cloud privati.
+                                </p>
+                                <br/>
                             </div>
                             {gradient_1()}
                         </div>
