@@ -1,6 +1,6 @@
 {
-  "name": "website",
-  "version": "0.1.0",
+  "name": "hyperbit-landing",
+  "version": "2023.01.18",
   "private": true,
   "scripts": {
     "dev": "next dev",
