@@ -1,4 +1,4 @@
-import {Html, Head, Main, NextScript} from 'next/document'
+import {Head, Html, Main, NextScript} from 'next/document'
 import React from "react";
 
 export default function Document() {
@@ -7,9 +7,9 @@ export default function Document() {
             <Head>
                 <meta charSet="utf-8"/>
                 <html lang="it"/>
-                <meta name="description" content="HyperBit S.R.L.S. Website"/>
-                <meta name="Keywords" content="HyperBit S.R.L.S., HyperBit, Trentino, Informatica, Consulenza Informatica"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta name="description" content="HyperBit SRLs Website"/>
+                <meta name="Keywords"
+                      content="HyperBit SRLs, HyperBit, Trentino, Informatica, Pergine Valsugana, Consulenza Informatica"/>
                 <script defer data-domain="hyperbit.it" src="https://plausible.io/js/script.js"></script>
             </Head>
             <body>
