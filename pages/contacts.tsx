@@ -23,25 +23,25 @@ export default function Contacts() {
                                     Potete trovare la nostra sede a <a className="text-gray-400"
                                                                        href="https://www.openstreetmap.org/node/10309533819#map=19/46.06698/11.23658">Pergine
                                     Valsugana (TN), in via Monte Cristallo 35</a>
-                                    , presso la sede dello studio <a className="text-gray-400"
+                                    , presso la sede dello studio <a className="text-blue-600"
                                                                      href="https://esseticonsulting.it">EsseTi
                                     Consulting.</a>
                                 </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
                                     In ogni caso siamo raggiungibili anche tramite
-                                    <a className="text-gray-400" href="mailto:mail@hyperbit.it"> Email</a>
+                                    <a className="text-blue-600" href="mailto:mail@hyperbit.it"> Email</a>
                                     ,
-                                    <a className="text-gray-400" href="https://t.me/hyperbit"> Telegram</a>
+                                    <a className="text-blue-600" href="https://t.me/hyperbit"> Telegram</a>
                                     ,
-                                    <a className="text-gray-400" href="mailto:hyperbit@pec.it"> Posta Elettronica
+                                    <a className="text-blue-600" href="mailto:hyperbit@pec.it"> Posta Elettronica
                                         Certificata </a>
                                     e cellulare presso il numero
-                                    <a className="text-gray-400" href="tel:+393202930345"> 3202930345</a>.
+                                    <a className="text-blue-600" href="tel:+393202930345"> 3202930345</a>.
                                 </p>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
                                     In caso di necessità potete contattare il NOC presso l<span
                                     aria-hidden="true">&apos;</span>indirizzo email:
-                                    <a className="text-gray-400" href="mailto:noc@hyperbit.it"> noc@hyperbit.it</a>
+                                    <a className="text-blue-600" href="mailto:noc@hyperbit.it"> noc@hyperbit.it</a>
                                 </p>
                                 <div className="text-gray-600 text-justify sm:text-center">
                                     <br/>
