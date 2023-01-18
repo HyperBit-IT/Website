@@ -27,10 +27,7 @@ export default function Company() {
                                     <div>
                                         <p className="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
                                             Mi chiamo <a className="text-gray-400"
-                                            href="https://francescomasala.me">Francesco Masala</a> e sono
-                                            un
-                                            ragazzo di 20
-                                            anni che vive a Trento, fin da ragazzo
+                                            href="https://francescomasala.me">Francesco Masala</a>, fin da ragazzo
                                             ho sempre avuto un forte interesse per la tecnologia, in particolare per il
                                             mondo
                                             delle
