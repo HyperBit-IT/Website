@@ -20,7 +20,7 @@ export default function Contacts() {
                                     Contatti
                                 </h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-                                    Potete trovare la nostra sede a <a className="text-gray-400"
+                                    Potete trovare la nostra sede a <a className="text-blue-600"
                                                                        href="https://www.openstreetmap.org/node/10309533819#map=19/46.06698/11.23658">Pergine
                                     Valsugana (TN), in via Monte Cristallo 35</a>
                                     , presso la sede dello studio <a className="text-blue-600"
