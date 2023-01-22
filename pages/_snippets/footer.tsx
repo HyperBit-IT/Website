@@ -37,11 +37,13 @@ export default function customFooter() {
                         <p className="font-medium text-black sm:justify-center">
                             <a href="mailto://hyperbit@pec.it" className="font-semibold text-black">
                             Posta Elettronica Certificata
-
                         </a>
                         </p>
                     </div>
                 </footer>
+            </div>
+            <div className={"flex justify-center"}>
+                <img alt={"Linode Solutions Partner"} src={"https://cdn.allbound.com/linode-ab/2021/01/29190609/partnerAsset-2%402x.png"} className={"w-auto h-10"}/>
             </div>
         </>
     )
