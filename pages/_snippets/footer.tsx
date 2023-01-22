@@ -19,30 +19,35 @@ export default function customFooter() {
                     </div>
                     <div className="w-full  grid-rows-2">
                         <p className="font-medium text-black sm:justify-center">
-                            Infrastructure <a href="https://status.hyperbit.it" className="font-semibold text-black">
-                            Status
-                        </a>
+                            Stato dei
+                            <a href="https://status.hyperbit.it" className="font-semibold text-black"> servizi
+                            </a>
                         </p>
                         <p className="font-medium text-black sm:justify-center">
-                            Our software is <a href="https://gitlab.com/HyperBit-IT"
-                                               className="font-semibold text-black">
+                            Il nostro software è <a href="https://gitlab.com/HyperBit-IT"
+                                                    className="font-semibold text-black">
                             Open-Source
                         </a>
                         </p>
                         <p className="font-medium text-black sm:justify-center">
-                            Made with ❤️ by <a href="https://francescomasala.me" className="font-semibold text-black">
+                            Fatto con ❤️ da <a href="https://francescomasala.me" className="font-semibold text-black">
                             Francesco Masala
                         </a>
                         </p>
                         <p className="font-medium text-black sm:justify-center">
                             <a href="mailto://hyperbit@pec.it" className="font-semibold text-black">
-                            Posta Elettronica Certificata
-
-                        </a>
+                                Posta Elettronica Certificata
+                            </a>
                         </p>
                     </div>
                 </footer>
             </div>
+            <div className={"flex justify-center"}>
+                <img alt={"Linode Solutions Partner"}
+                     src={"https://cdn.allbound.com/linode-ab/2021/01/29190609/partnerAsset-2%402x.png"}
+                     className={"w-auto h-10"}/>
+            </div>
         </>
     )
 }
+
