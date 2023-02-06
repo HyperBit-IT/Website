@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function customFooter() {
     return (
         <>
@@ -43,9 +45,7 @@ export default function customFooter() {
                 </footer>
             </div>
             <div className={"flex justify-center"}>
-                <img alt={"Linode Solutions Partner"}
-                     src={"https://cdn.allbound.com/linode-ab/2021/01/29190609/partnerAsset-2%402x.png"}
-                     className={"w-auto h-10"}/>
+                <Image src={"https://cdn.allbound.com/linode-ab/2021/01/29190609/partnerAsset-2%402x.png"} alt={"Linode Solutions Partner"} width={150} height={50}/>
             </div>
         </>
     )

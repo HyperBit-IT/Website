@@ -3,6 +3,7 @@ import {Bars3Icon} from "@heroicons/react/24/outline";
 import {Dialog} from "@headlessui/react";
 import {XMarkIcon} from "@heroicons/react/20/solid";
 import React, {useState} from "react";
+import Image from "next/image";
 
 const navigation = [
     {name: 'Home', href: '/'},
@@ -52,7 +53,7 @@ export default function customHeader() {
                             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
                                 <Link href="/" className="-m-1.5 p-1.5">
                                     <span className="sr-only">HyperBit S.R.L.S.</span>
-                                    <img className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
+                                    <Image className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
                                 </Link>
                             </div>
                             <div className="flex items-center lg:hidden" aria-label="Global">
@@ -67,19 +68,19 @@ export default function customHeader() {
                             </div>
                             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
                                 {navigation.map((item) => (
-                                    <a key={item.name} href={item.href}
+                                    <Link key={item.name} href={item.href}
                                        className="font-semibold text-gray-900 hover:text-gray-900">
                                         {item.name}
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-                                <a
+                                <Link
                                     href="https://panel.hyperbit.dev"
                                     className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                                 >
                                     Log in
-                                </a>
+                                </Link>
                             </div>
                         </nav>
                         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -88,7 +89,7 @@ export default function customHeader() {
                                     <div className="flex">
                                         <Link href="/" className="-m-1.5 p-1.5">
                                             <span className="sr-only">HyperBit S.R.L.S.</span>
-                                            <img className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
+                                            <Image className="h-8" src="/hyperbit-logo-icon-dark.svg" alt=""/>
                                         </Link>
                                     </div>
                                     <div className="flex">
