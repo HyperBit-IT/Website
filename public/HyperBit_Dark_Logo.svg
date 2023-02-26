@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1351 1559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(8.33333,0,0,8.33333,0,0)">
+        <g id="Colore">
+            <path id="Curva_Interna" d="M40.586,70.138L60.833,58.448L81.08,46.759L101.327,58.448L121.574,70.138L101.327,81.797L81.08,93.487L60.833,105.192L40.586,116.897L40.586,70.138Z" style="fill:#ff7171;"/>
+            <path id="Curva_Esterna" d="M153.575,51.665L117.327,30.73L81.079,9.804L44.832,30.73L8.584,51.665L8.584,93.519L8.585,135.372L0.086,140.273L0.092,93.517L0.092,46.759L40.586,23.379L81.08,0L121.574,23.379L162.068,46.759" style="fill:#ff7171;"/>
+        </g>
+        <g id="Contrasto">
+            <path id="Curva_Interna1" serif:id="Curva_Interna" d="M121.574,70.146L121.574,116.897L101.327,128.586L81.08,140.276L60.833,128.586L40.586,116.897L121.574,70.146Z" style="fill:#464646;"/>
+            <path id="Curva_Esterna1" serif:id="Curva_Esterna" d="M162.069,46.76L162.069,140.276L121.574,163.655L81.08,187.035L40.586,163.655L0.086,140.273L8.584,135.372L44.833,156.299L81.081,177.225L117.329,156.299L153.577,135.372L153.577,51.67L162.069,46.76Z" style="fill:#464646;"/>
+        </g>
+    </g>
+</svg>
