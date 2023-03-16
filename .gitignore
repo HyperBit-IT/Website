@@ -1,8 +1,12 @@
 node_modules
 *.log*
 .nuxt
+.next
 .nitro
 .cache
 .output
+package-lock.json
+yarn.lock
+jsLibraryMappings.xml
 .env
 dist

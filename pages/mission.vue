@@ -4,7 +4,7 @@
       <div>
         <div>
           <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-            Missione Aziendale
+            Mission Aziendale
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
             La nostra missione è quella di fornire un servizio affidabile ed efficiente alle

@@ -9,9 +9,6 @@
           Potete trovare la nostra sede a <a class="text-blue-600"
                                              href="https://www.openstreetmap.org/node/10309533819#map=19/46.06698/11.23658">Pergine
           Valsugana (TN), in via Monte Cristallo 35</a>
-          , presso la sede dello studio <a class="text-blue-600"
-                                           href="https://esseticonsulting.it">EsseTi
-          Consulting.</a>
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
           In ogni caso siamo raggiungibili anche tramite
