@@ -30,7 +30,6 @@
               </CustomButton>
             </div>
           </div>
-          <TwoByTwoGrid/>
         </div>
       </div>
     </div>
