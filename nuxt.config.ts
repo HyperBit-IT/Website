@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     }, tailwindcss: {
         viewer: false,
     }, plausible: {
-        domain: 'hyperbit.it', autoPageviews: true, trackLocalhost: false, autoOutboundTracking: true,
+        domain: 'beta.hyperbit.it', autoPageviews: true, trackLocalhost: false, autoOutboundTracking: true,
     }, devtoold: {
         enabled: true,
     }, pages: true, components: true, app: {
