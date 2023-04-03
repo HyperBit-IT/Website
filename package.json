@@ -7,14 +7,14 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.4.1",
-    "nuxt": "^3.2.3"
-  },
   "dependencies": {
-    "@headlessui/vue": "^1.7.11",
     "@heroicons/vue": "^2.0.16",
-    "install": "^0.13.0",
-    "npm": "^9.6.2"
+    "@nuxtjs/plausible": "^0.2.0",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "nuxt-property-decorator": "^2.9.1"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.3.1",
+    "nuxt": "^3.3.2"
   }
 }
