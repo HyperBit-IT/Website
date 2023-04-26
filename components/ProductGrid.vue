@@ -2,12 +2,11 @@
     <div class="bg-white">
         <div class="mx-auto max-w-7xl">
             <div class="mx-auto max-w-2xl lg:text-center">
-                <p class="mt-6 text-lg leading-8 text-gray-600">Il nostro obiettivo è di aiutare le piccole e medie
-                    imprese a colmare il divario digitale attraverso soluzioni informatiche personalizzate e
-                    innovative.
+                <p class="mt-10 text-xl font-semibold leading-8">
+                    Ecco alcuni dei servizi che offriamo ai nostri clienti:
                 </p>
             </div>
-            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+            <div class="mx-auto mt-12 max-w-2xl sm:mt-20 lg:mt-12 lg:max-w-4xl">
                 <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
                     <div v-for="feature in features" :key="feature.name" class="relative pl-16">
                         <dt class="text-base font-semibold leading-7 text-gray-900">
