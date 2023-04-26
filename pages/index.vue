@@ -11,7 +11,6 @@
                         </h1>
                         <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
                             Offriamo servizi di consulenza IT, hybrid cloud (IaaS)
-                            <br/>
                             e soluzioni informatiche personalizzate per le esigenze del tuo business.
                         </p>
                         <!--<tech-stack/>-->
@@ -25,8 +24,12 @@
 </template>
 
 <script>
+import ProductGrid from "~/components/ProductGrid.vue";
+import Partners from "~/components/TechStack.vue";
+
 export default {
-    name: "index"
+    name: "index",
+    components: {Partners, ProductGrid}
 }
 </script>
 
