@@ -10,12 +10,12 @@
                             per il tuo Business
                         </h1>
                         <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
-                            Offriamo servizi di consulenza IT, hybrid cloud (IaaS)
-                            e soluzioni informatiche personalizzate per le esigenze del tuo business.
-                        </p>
-                        <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
                             Il nostro obiettivo è di aiutare le piccole e medie imprese a colmare il divario digitale
                             attraverso soluzioni informatiche personalizzate e innovative.
+                        </p>
+                        <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
+                            Offriamo servizi di consulenza IT, hybrid cloud (IaaS)
+                            e soluzioni informatiche personalizzate per le esigenze del tuo business.
                         </p>
                     </div>
                     <div class="text-center mt-8">
