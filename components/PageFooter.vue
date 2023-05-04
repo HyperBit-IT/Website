@@ -17,7 +17,7 @@
         <nuxt-link href="/privacy-policy" class="mr-4 hover:underline md:mr-6">Privacy Policy</nuxt-link>
       </li>
       <li>
-        <a href="https://gitlab.com/HyperBit-IT" class="mr-4 hover:underline md:mr-6">We &lt3 Open-Source</a>
+        <a href="https://github.com/HyperBit-IT" class="mr-4 hover:underline md:mr-6">We &lt3 Open-Source</a>
       </li>
     </ul>
   </footer>

@@ -14,7 +14,7 @@
                             attraverso soluzioni informatiche personalizzate e innovative.
                         </p>
                         <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
-                            Offriamo servizi di consulenza IT, hybrid cloud (IaaS)
+                            Offriamo servizi di Consulenza IT, Hybrid Cloud (IaaS)
                             e soluzioni informatiche personalizzate per le esigenze del tuo business.
                         </p>
                     </div>
