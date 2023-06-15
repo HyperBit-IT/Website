@@ -16,10 +16,10 @@
           ,
           <a class="text-blue-600" href="https://t.me/hyperbit"> Telegram</a>
           ,
-          <a class="text-blue-600" href="mailto:hyperbit@pec.it"> Posta Elettronica
+          <a class="text-blue-600" href="mailto:cert@pec.hyperbit.it"> Posta Elettronica
             Certificata </a>
-          e cellulare presso il numero
-          <a class="text-blue-600" href="tel:+393202930345"> 3202930345</a>.
+          e via telefono fisso presso il numero
+          <a class="text-blue-600" href="tel:+3904611819041"> 04611819041</a>.
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
           In caso di necessità potete contattare il NOC presso l<span
