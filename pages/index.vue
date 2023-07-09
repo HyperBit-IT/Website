@@ -22,7 +22,6 @@
                         <custom-button/>
                     </div>
                     <div>
-                        <!--<tech-stack/>-->
                         <product-grid/>
                         <partners/>
                     </div>
@@ -33,12 +32,11 @@
 </template>
 
 <script>
-import ProductGrid from "~/components/ProductGrid.vue";
-import Partners from "~/components/TechStack.vue";
+import Partners from "~/components/Partners.vue";
 
 export default {
     name: "index",
-    components: {Partners, ProductGrid}
+    components: {Partners}
 }
 </script>
 
