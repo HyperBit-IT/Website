@@ -14,7 +14,7 @@
           In ogni caso siamo raggiungibili anche tramite
           <a class="text-blue-600" href="mailto:mail@hyperbit.it"> Email</a>
           ,
-          <a class="text-blue-600" href="https://t.me/hyperbit"> Telegram</a>
+          <a class="text-blue-600" href="https://t.me/HyperBitIT"> Telegram</a>
           ,
           <a class="text-blue-600" href="mailto:cert@pec.hyperbit.it"> Posta Elettronica
             Certificata </a>
