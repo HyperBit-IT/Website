@@ -1,5 +1,5 @@
 <template>
-    <XMarkIcon/>
+  <XMarkIcon/>
 </template>
 
 <script setup>

@@ -2,8 +2,8 @@
   <div>
     <NuxtLayout>
       <page-header/>
-        <cookie-banner/>
-        <NuxtPage/>
+      <cookie-banner/>
+      <NuxtPage/>
       <page-footer/>
     </NuxtLayout>
   </div>

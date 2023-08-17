@@ -1,11 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/plausible', '@nuxt/devtools'], devtools: {
+    modules: ['@nuxtjs/tailwindcss', '@nuxtjs/plausible', '@nuxt/devtools'],
+    routeRules: {
+        '/': {redirect: '/it-IT/'},
+    },
+    devtools: {
         enabled: true
     }, tailwindcss: {
         viewer: false,
     }, plausible: {
-        domain: 'hyperbit.it', autoPageviews: true, trackLocalhost: false, autoOutboundTracking: true, apiHost: 'https://stats.hyperbit.it',
+        domain: 'hyperbit.it',
+        autoPageviews: true,
+        trackLocalhost: false,
+        autoOutboundTracking: true,
+        apiHost: 'https://stats.hyperbit.it',
     }, devtoold: {
         enabled: true,
     }, pages: true, components: true, app: {
