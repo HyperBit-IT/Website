@@ -1,4 +1,6 @@
 <template>
+  <de-page-header/>
+  <de-cookie-banner/>
   <div class="relative px-6 lg:px-8">
     <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
       <div>
@@ -33,6 +35,7 @@ Im Falle von Bedarf können Sie das NOC unter der E-Mail-Adresse kontaktieren:
       </div>
     </div>
   </div>
+  <de-page-footer/>
 </template>
 
 <script>
