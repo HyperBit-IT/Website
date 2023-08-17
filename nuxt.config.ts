@@ -3,6 +3,8 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/plausible', '@nuxt/devtools'],
     routeRules: {
         '/': {redirect: '/it-IT/'},
+        '/contacts': {redirect: '/it-IT/contacts'},
+        '/privacy-policy': {redirect: '/it-IT/privacy-policy'},
     },
     devtools: {
         enabled: true
