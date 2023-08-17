@@ -13,7 +13,7 @@
           Valsugana (TN), in via Monte Cristallo 35</a>
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-          In ogni caso siamo raggiungibili anche tramite
+          In ogni caso, siamo raggiungibili anche tramite
           <a class="text-blue-600" href="mailto:mail@hyperbit.it"> Email</a>
           ,
           <a class="text-blue-600" href="https://t.me/HyperBitIT"> Telegram</a>

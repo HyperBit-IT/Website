@@ -3,27 +3,25 @@
     <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
       <div>
         <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-          Contatti
+          Kontakte
         </h1>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-          Potete trovare la nostra sede a <a class="text-blue-600"
+          Sie finden uns in <a class="text-blue-600"
                                              href="https://www.openstreetmap.org/node/10309533819#map=19/46.06698/11.23658">Pergine
-          Valsugana (TN), in via Monte Cristallo 35</a>
+          Valsugana (TN), in der Monte Cristallo Straße 35</a>
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-          In ogni caso siamo raggiungibili anche tramite
+          In jedem Fall können Sie uns auch erreichen über
           <a class="text-blue-600" href="mailto:mail@hyperbit.it"> Email</a>
           ,
           <a class="text-blue-600" href="https://t.me/HyperBitIT"> Telegram</a>
           ,
-          <a class="text-blue-600" href="mailto:cert@pec.hyperbit.it"> Posta Elettronica
-            Certificata </a>
-          e via telefono fisso presso il numero
-          <a class="text-blue-600" href="tel:+3904611819041"> 04611819041</a>.
+          <a class="text-blue-600" href="mailto:cert@pec.hyperbit.it"> Elektronische Post Zertifiziert </a>
+          und per Festnetztelefon unter
+          <a class="text-blue-600" href="tel:+3904611819041">+39 04611819041</a>.
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-          In caso di necessità potete contattare il NOC presso l<span
-            aria-hidden="true">&apos;</span>indirizzo email:
+Im Falle von Bedarf können Sie das NOC unter der E-Mail-Adresse kontaktieren:
           <a class="text-blue-600" href="mailto:noc@hyperbit.it"> noc@hyperbit.it</a>
         </p>
         <div class="text-gray-600 text-justify sm:text-center">
