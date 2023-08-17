@@ -48,7 +48,7 @@
           Plausible e Sentry (in questo caso) non sono stati forniti tramite un fornitore terzo ma sono stati installati sui nostri server e raggiungibili ai seguenti indirizzi web:
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-          <a class="text-blue-600" href="https://plausible.hyperbit.it">
+          <a class="text-blue-600" href="https://stats.hyperbit.it">
             https://plausible.hyperbit.it
           </a>
           <br/>

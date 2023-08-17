@@ -40,7 +40,7 @@
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
           Plausible and Sentry (in this case) were not provided through a third-party provider but were installed on our servers and are reachable at the following web addresses:        </p>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-justify sm:text-center">
-          <a class="text-blue-600" href="https://plausible.hyperbit.it">
+          <a class="text-blue-600" href="https://stats.hyperbit.it">
             https://plausible.hyperbit.it
           </a>
           <br/>
