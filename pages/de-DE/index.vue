@@ -12,8 +12,7 @@
               für Ihr Unternehmen
             </h1>
             <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
-              Unser Ziel ist es, kleinen und mittleren Unternehmen zu helfen, die digitale Kluft zu überwinden durch maßgeschneiderte und innovative IT-Lösungen zu überwinden.
-            </p>
+              Unser Ziel ist es, kleinen und mittleren Unternehmen zu helfen, die digitale Kluft zu überwinden durch maßgeschneiderte und innovative IT-Lösungen anzubieten.            </p>
             <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
               Wir bieten IT-Beratungsdienste, Hybrid Cloud (IaaS) und maßgeschneiderte IT-Lösungen für Ihre Geschäftsanforderungen.
             </p>
