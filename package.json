@@ -17,7 +17,7 @@
     "@headlessui/vue": "^1.7.15"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^0.6.7",
+    "@nuxt/devtools": "^0.8.2",
     "nuxt": "^3.6.2"
   }
 }
