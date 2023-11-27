@@ -14,7 +14,8 @@
     "@nuxt/image": "^0.7.1",
     "@vue-hero-icons/outline": "^1.7.2",
     "nuxt-property-decorator": "^2.9.1",
-    "@headlessui/vue": "^1.7.15"
+    "@headlessui/vue": "^1.7.15",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.6.7",
