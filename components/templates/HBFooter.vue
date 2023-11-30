@@ -4,12 +4,11 @@
     <div class="text-sm text-gray-500">
       <a class="hover:underline" href="https://hyperbit.it/">HyperBit SRLs</a>
       <br>
-      <a class="hover:underline" href="https://osm.org/go/0CvqspXp8?node=10309533819">Via Monte Cristallo 35, Pergine
-        Valsugana (TN), Italia</a>
+      <a class="hover:underline" href="https://osm.org/go/0CvqspXp8?node=10309533819">{{ $t('foot1') }}</a>
       <br>
-      <a>P.Iva: IT02697330229 - REA: TN-243469</a>
+      <a>{{ $t('foot2') }}</a>
       <br>
-      <a>Capitale Sociale: 600€</a>
+      <a>{{ $t('foot3') }}</a>
     </div>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 sm:mt-0">
       <li>

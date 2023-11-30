@@ -1,5 +1,7 @@
 {
+  "name": "hyperbit-website",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -7,18 +9,16 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^1.5.0",
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.9.0",
+    "nuxt": "^3.7.4",
+    "vue-i18n": "^9.8.0"
+  },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
-    "@nuxtjs/plausible": "^0.2.1",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@nuxt/image": "^0.7.1",
-    "@vue-hero-icons/outline": "^1.7.2",
-    "nuxt-property-decorator": "^2.9.1",
-    "@headlessui/vue": "^1.7.15",
-    "serve": "^14.2.1"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "^0.6.7",
-    "nuxt": "^3.6.2"
+    "@nuxt/image": "^1.1.0",
+    "@nuxtjs/plausible": "^0.2.3"
   }
 }
