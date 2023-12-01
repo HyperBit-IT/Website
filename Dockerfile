@@ -9,6 +9,7 @@ RUN apk add --no-cache git
 # Copy source code
 COPY . /usr/src/app
 RUN npm install nuxi -g
+RUN npm install
 RUN nuxi prepare
 RUN nuxi build
 RUN npm install serve
