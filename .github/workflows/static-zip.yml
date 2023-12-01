@@ -1,0 +1,32 @@
+name: Build Static Website
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install nuxi
+        run: npm install -g nuxi
+      - name: Install dependencies
+        run: npm install
+      - name: Prepare nuxi
+        run: nuxi prepare
+      - name: Build with nuxi
+        run: nuxi build
+      - name: Build a static website
+        run: nuxi generate
+      - name: Zip the static website
+        run: zip -r static.zip .output/public
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Website
+          path: static.zip
