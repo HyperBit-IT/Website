@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     build: {
         transpile: ["vue-i18n"]
     },
+    ui: {
+        global: true,
+    },
     plausible: {
         domain: 'hyperbit.it',
         autoPageviews: true,
@@ -20,6 +23,7 @@ export default defineNuxtConfig({
     vite: {
         plugins: [
             VueI18nVitePlugin({
+                    runtimeOnly: false,
                     include:
                         [
                             resolve(dirname(fileURLToPath(import.meta.url)), './src/locales/**')

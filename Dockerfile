@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.18
+FROM node:20-alpine
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
@@ -8,9 +8,10 @@ RUN apk add --no-cache git
 
 # Copy source code
 COPY . /usr/src/app
-RUN npm install
-RUN npm run postinstall
-RUN npm run build
+RUN npm install nuxi -g
+RUN nuxi prepare
+RUN nuxi build
+RUN npm install serve
 
 # Expose port
 EXPOSE 3000
@@ -20,4 +21,4 @@ ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3000
 
 # Run the app
-CMD ["npx", "serve", "./output/public "]
+CMD ["npx", "serve", "/usr/src/app/output/server/index.mjs "]
