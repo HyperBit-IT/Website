@@ -23,10 +23,10 @@ export default defineNuxtConfig({
     vite: {
         plugins: [
             VueI18nVitePlugin({
-                    runtimeOnly: false,
+                    runtimeOnly: true,
                     include:
                         [
-                            resolve(dirname(fileURLToPath(import.meta.url)), './src/locales/**')
+                            resolve(dirname(fileURLToPath(import.meta.url)), './locales/*.json')
                         ]
                 }
             )
