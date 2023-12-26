@@ -8,6 +8,14 @@
           <img alt="Akamai Solutions Partner" class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1"
                height="126" src="/Akamai-Partner-Logo.png" width="403"/>
         </nuxt-link>
+        <nuxt-link href="https://www.wildix.com">
+          <img alt="Wildix Gold Partner" class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1"
+               height="356" src="/Wildix_Partner-Gold.png" width="1182"/>
+        </nuxt-link>
+        <nuxt-link href="https://www.microsoft.com">
+          <img alt="Microsoft Partner" class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1"
+               height="262" src="/Microsoft-Partner.png" width="400"/>
+        </nuxt-link>
         <nuxt-link href="https://www.aruba.it">
           <img alt="Aruba Business Partner" class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1"
                height="83" src="/aruba-business.png" width="290"/>
@@ -16,14 +24,6 @@
           <img alt="SUSE Sapphire Partner"
                class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1" height="3000"
                src="/SUSE_Logo-hor_L_Green-pos_sRGB.png" width="9000"/>
-        </nuxt-link>
-        <nuxt-link href="https://www.microsoft.com">
-          <img alt="Microsoft Partner" class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1"
-               height="262" src="/Microsoft-Partner.png" width="400"/>
-        </nuxt-link>
-        <nuxt-link href="https://www.wildix.com">
-          <img alt="Wildix Gold Partner" class="col-span-2 max-h-12.5 w-full object-contain lg:col-span-1"
-               height="356" src="/Wildix_Partner-Gold.png" width="1182"/>
         </nuxt-link>
       </div>
     </div>
