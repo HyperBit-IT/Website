@@ -18,7 +18,7 @@
             </p>
           </div>
           <div class="text-center mt-8">
-            <UButton size="xl" to="mailto:mail@hyperbit.it" target="_blank">{{ $t('main5') }}</UButton>
+            <UButton size="xl" to="https://kite.wildix.com/hyperbit-srls/100" target="_blank">{{ $t('main5') }}</UButton>
           </div>
           <div>
             <div class="bg-white">
