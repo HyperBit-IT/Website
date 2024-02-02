@@ -16,10 +16,10 @@
               </div>
               <div>
                 <a href="/Services/MSP" class="font-semibold text-gray-900">
-                  Managed Service Provider
+                  {{ $t('services1') }}
                   <span class="absolute inset-0" />
                 </a>
-                <p class="mt-1 text-gray-600">Servizi di gestione e manutenzione di infrastrutture IT</p>
+                <p class="mt-1 text-gray-600">{{ $t('services2') }}</p>
               </div>
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
@@ -28,10 +28,10 @@
               </div>
               <div>
                 <a href="/Services/Cloud" class="font-semibold text-gray-900">
-                  Cloud Ibrido e Dedicato
+                  {{ $t('services3') }}
                   <span class="absolute inset-0" />
                 </a>
-                <p class="mt-1 text-gray-600">Cloud pubblico, virtualizzazione e servizi di hosting in tutto il mondo</p>
+                <p class="mt-1 text-gray-600">{{ $t('services4') }}</p>
               </div>
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
@@ -40,21 +40,21 @@
               </div>
               <div>
                 <a href="/Services/UCaaS" class="font-semibold text-gray-900">
-                  Unified Communications
+                  {{ $t('services5') }}
                   <span class="absolute inset-0" />
                 </a>
-                <p class="mt-1 text-gray-600">Soluzioni personalizzate di comunicazione unificata e collaborazione</p>
+                <p class="mt-1 text-gray-600">{{ $t('services6') }}</p>
               </div>
             </div>
           </div>
           <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
             <a href="callto:+3904611819049" class="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100">
               <component :is="PhoneIcon" class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-              Chiamaci!
+              {{ $t('services7') }}
             </a>
             <a href="mailto:mail@hyperbit.it" class="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100">
               <component :is="EnvelopeOpenIcon" class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-              Scrivici!
+              {{ $t('services8') }}
             </a>
           </div>
         </div>

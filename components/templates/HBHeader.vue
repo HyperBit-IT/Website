@@ -4,7 +4,7 @@
       <a class="flex items-center" href="https://hyperbit.it">
         <img alt="HyperBit Logo"
              class="mr-3 h-6 sm:h-9"
-             src="https://general-hyperbit-0.eu-central-1.linodeobjects.com/HyperBit_Dark_Logo.svg"/>
+             src="/HyperBit_Dark_Logo.svg"/>
       </a>
       <div class="flex items-center lg:order-2">
         <a class="font-medium rounded-lg text-sm focus:outline-none">

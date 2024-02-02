@@ -8,25 +8,27 @@
       <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-16 sm:pb-30">
         <div>
           <div>
-            <h1 class="text-5xl font-bold tracking-tight sm:text-center sm:text-5xl">
+            <h2 class="text-5xl font-bold tracking-tight sm:text-center sm:text-5xl">
               Il nostro team
-            </h1>
+            </h2>
             <p class="mt-8 text-lg leading-8 text-gray-600 sm:text-center">
               Conosci tutte le fantastiche persone che lavorano con noi!
             </p>
           </div>
           <br/>
-          <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+          <div class="grid gap-8 mb-6 lg:mb-16">
             <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a class="p-4 rounded" href="#">
-                <img class="w-full rounded-lg sm:rounded-none sm:rounded" src="https://avatars.githubusercontent.com/u/25754886?v=4" alt="Bonnie Avatar">
+                <img class="w-80 shadow sm:rounded-none sm:rounded" src="https://avatars.githubusercontent.com/u/25754886?v=4" alt="Bonnie Avatar">
               </a>
               <div class="p-3">
                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="https://francescomasala.me">Francesco Masala</a>
                 </h3>
                 <span class="text-gray-500 dark:text-gray-400">CEO & Sysadmin</span>
-                <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Francesco è il tuttofare di HyperBit. Si occupa di tutto, dalla gestione dei server alla contabilità.</p>
+                <br/>
+                <span class="text-gray-500 dark:text-gray-400 text-sm"> 2023 - Present</span>
+                <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Francesco è il nostro CEO e Sysadmin. Si occupa della gestione a 360° dell'azienda.</p>
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
                     <a href="https://github.com/francescomasala" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -38,13 +40,15 @@
             </div>
             <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a class="p-4 rounded" href="#">
-                <img class="w-full rounded-lg sm:rounded-none sm:rounded" src="https://avatars.githubusercontent.com/u/89260051?v=4" alt="Bonnie Avatar">
+                <img class="w-80 shadow sm:rounded-none sm:rounded" src="https://avatars.githubusercontent.com/u/89260051?v=4" alt="Bonnie Avatar">
               </a>
               <div class="p-3">
                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a>Mattia Casciani</a>
                 </h3>
                 <span class="text-gray-500 dark:text-gray-400">Junior Sysadmin</span>
+                <br/>
+                <span class="text-gray-500 dark:text-gray-400 text-sm"> 2023 - Presente</span>
                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Mattia è il nostro junior sysadmin. Si occupa della gestione dei server e del networking.</p>
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
